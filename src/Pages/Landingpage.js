@@ -2,7 +2,11 @@ import React from 'react'
 
 function Landingpage() {
   return (
-    <div>Landingpage</div>
+    <div>
+        <h1>WELCOME TO GREENS TECHNOLOGIES</h1>
+
+
+    </div>
   )
 }
 
