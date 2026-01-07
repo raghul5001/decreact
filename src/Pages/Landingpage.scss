@@ -1,0 +1,45 @@
+.bg{
+    background-color: rgb(11, 72, 52);
+    min-height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #1f7a3f 0%,
+        #1f3f2a 100%
+        
+    );
+    overflow: hidden;
+
+}
+
+.text{
+    
+    color: rgb(20, 30, 4);
+    margin-left: 379px;
+    margin-top: 135px;
+}
+.sub{
+    margin-left: 487px;
+}
+.allcards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 40px;
+    
+}
+.card{
+    width: 320px;
+    padding: 30px;
+    border-radius: 16px;
+    color: black;
+    text-align: center;
+    box-shadow: 0 10px 25px;
+    transition: transform 0.10s ease;
+    cursor: pointer;
+
+}
+.card:hover  {
+    transform: translateY(-13px);
+}
+
+
