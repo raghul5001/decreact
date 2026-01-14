@@ -1,0 +1,36 @@
+.backend{
+    background-color: blue;
+    height: 100vh;
+}
+.title{
+    margin-left: 33%;
+}
+.cards{
+    margin:40px;
+    display:flex;
+    justify-content: space-around;
+}
+.intro{
+    padding: 20px;
+}
+.card1{
+    border: 1px solid black;
+    margin: 20px;
+    height: 60vh;
+    width: 20%;
+    padding-left: 160px;
+}
+.card2{
+    border: 1px solid black;
+    margin: 20px;
+    height: 60vh;
+    width: 20%;
+    padding-left: 160px;
+}
+.card3{
+    border: 1px solid black;
+    margin: 20px;
+    height: 60vh;
+    width: 20%;
+    padding-left: 160px;
+}
