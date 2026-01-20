@@ -21,7 +21,7 @@ function Login() {
 
       setTimeout(() => {
         window.location.href = "/landingpage"
-      }, 5000);   
+      }, 2000);   
     }
   }
 
@@ -40,9 +40,9 @@ function Login() {
           <input className="em" type='text' value={uname} placeholder='Enter Email/Mobile number' onChange={(e)=>setUname(e.target.value)}/><br/>
           <input className='ep' type='password' value={pass} placeholder='Enter Password' onChange={(e)=>setPass(e.target.value)}/>
           <h6 className='forgot'>Forgot?</h6>
-          <h6 className='bc'>By continuing, you agree to Paperwall <span style={{color: "blue"}}> Terms of use</span> and <span style={{color: "blue"}}> Privacy policy</span></h6>
+          <h6 className='bc'>By continuing, you agree to Paperwall <span style={{color: "#2a71f9"}}> Terms of use</span> and <span style={{color: "#2a71f9"}}> Privacy policy</span></h6>
           <button className='login' onClick={handleLogin}><h5>Login</h5></button>
-          <h6 className='dh'><span style={{color: "gray"}}> Don't have an account? </span> <span style={{color: "blue"}}> Register Now </span></h6>
+          <h6 className='dh'><span style={{color: "#9A9999"}}> Don't have an account?    </span> <span style={{color: "#2a71f9" }}> &nbsp;Register Now </span></h6>
         </div>
       </div>
     </div>
