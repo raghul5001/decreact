@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import "./Login.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import logo from "./Images/Greenslogo.jpg";
+import logo from "../Images/Greenslogo.jpg";
 
 function Login() {
 
@@ -30,8 +30,8 @@ function Login() {
       <ToastContainer/>
       <div className='col-5 left'>
         <div className='leftcontent'>
-          {/* <img className="logo" src={logo} alt='logo'/> */}
-          <h1>Login</h1>
+          <img className="logo" src={logo} alt='logo'/>
+          <h1 className='logintext'>Login</h1>
           <h3>Get access to your orders, wishlist and recommendations</h3>
         </div>
       </div>
