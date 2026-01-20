@@ -1,0 +1,60 @@
+.row{
+    font-family: Lato;
+}
+
+.left{
+    height: 100vh;
+    background: radial-gradient(#113630 30%, #165147 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftcontent{
+    height: 50vh;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
+
+.em{
+    color: #9A9999;
+    border: outset;
+}
+
+.ep{
+    color: #9A9999;
+    border: outset;
+}
+
+.graytext{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forgot{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    color: #2a71f9;
+}
+
+.bc{
+    margin-top: 9vh;
+}
+
+.login{
+    margin-top: 6vh;
+    height: 6vh;
+    background-color: #A16220;
+    color: white;
+    border-color: #A16220;
+    outline-color: #A16220;
+}
+
+.dh{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
