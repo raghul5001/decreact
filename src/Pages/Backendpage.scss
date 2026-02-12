@@ -1,27 +1,37 @@
 .backend{
     // background-color: blue;
     background-image: url("../Images/bg.jpg");
-    height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
     
 }
-.img{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
 .title{
-    margin-left: 33%;
+    text-align: center;
     color: white;
 }
 .cards{
     margin:40px;
     display:flex;
     justify-content: space-around;
-    color: white
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
+}
+.cards:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
 .pyth{
-    padding-left: 80px;
+    text-align: center;
     color: white;
+}
+.pyicon{
+    padding-left: 33%;
+    font-size: 90px;
+    color:#61dafb
+    // width: 100px;
 }
 .intro{
     padding: 20px;
@@ -29,36 +39,59 @@
 }
 .card1{
     border: 1px solid white;
+    border-radius: 12px;
     margin: 20px;
     height: 60vh;
     width: 20%;
 
 }
-.card2{
-    border: 1px solid white;
-    margin: 20px;
-    height: 60vh;
-    width: 20%;
-}
 .jav{
-    padding-left: 80px;
+    text-align: center;
     color: white;
+}
+.jaicon{
+    padding-left: 33%;
+    font-size: 90px;
+    color:#61dafb;
+    // width: 100px;
 }
 .intro1{
     padding: 20px;
     color: white;
 }
-.card3{
+.card2{
     border: 1px solid white;
+    border-radius: 12px;
     margin: 20px;
     height: 60vh;
     width: 20%;
 }
 .nod{
-    padding-left: 80px;
+    text-align: center;
     color: white;
+}
+.ndicon{
+    padding-left: 33%;
+    font-size: 90px;
+    color: #61dafb;
 }
 .intro2{
     padding: 20px;
     color: white;
+}
+.card3{
+    border: 1px solid white;
+    border-radius: 12px;
+    margin: 20px;
+    height: 60vh;
+    width: 20%;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover {
+    transform: translateY(-12px) scale(1.05);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.6);
+    border-color: transparent;
+    background: rgba(255, 255, 255, 0.1);
+    text-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
 }
